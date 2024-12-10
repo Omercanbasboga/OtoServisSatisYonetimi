@@ -22,3 +22,4 @@ namespace OtoServisSatis.Entities
         public string SaseNo { get; set; }
         public string Notlar { get; set; }
     }
+}
