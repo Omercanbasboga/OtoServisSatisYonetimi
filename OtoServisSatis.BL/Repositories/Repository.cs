@@ -7,7 +7,7 @@ using System.Data.Entity.Migrations;
 using System.Threading.Tasks;
 using OtoServisSatis.Entities;
 using OtoServisSatis.DAL;
-using OtoServisSatis.DAL.Repositories;
+using OtoServisSatis.Bl.Repositories;
 
 namespace OtoServisSatis.BL.Repositories
 {
