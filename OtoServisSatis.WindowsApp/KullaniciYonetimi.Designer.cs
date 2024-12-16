@@ -216,7 +216,7 @@
             this.btnKaydet.Name = "btnKaydet";
             this.btnKaydet.ShowFocusRectangle = DevExpress.Utils.DefaultBoolean.False;
             this.btnKaydet.Size = new System.Drawing.Size(92, 31);
-            this.btnKaydet.TabIndex = 21;
+            this.btnKaydet.TabIndex = 9;
             this.btnKaydet.Text = "Kaydet";
             this.btnKaydet.Click += new System.EventHandler(this.btnKaydet_Click);
             // 
@@ -239,7 +239,7 @@
             this.btnGüncelle.Name = "btnGüncelle";
             this.btnGüncelle.ShowFocusRectangle = DevExpress.Utils.DefaultBoolean.False;
             this.btnGüncelle.Size = new System.Drawing.Size(89, 31);
-            this.btnGüncelle.TabIndex = 20;
+            this.btnGüncelle.TabIndex = 10;
             this.btnGüncelle.Text = "Güncelle";
             this.btnGüncelle.Click += new System.EventHandler(this.btnGüncelle_Click);
             // 
@@ -250,7 +250,7 @@
             this.bntSil.Name = "bntSil";
             this.bntSil.ShowFocusRectangle = DevExpress.Utils.DefaultBoolean.False;
             this.bntSil.Size = new System.Drawing.Size(89, 31);
-            this.bntSil.TabIndex = 19;
+            this.bntSil.TabIndex = 11;
             this.bntSil.Text = "Sil";
             this.bntSil.Click += new System.EventHandler(this.bntSil_Click);
             // 
@@ -267,42 +267,42 @@
             this.txtKullaniciAdi.Location = new System.Drawing.Point(414, 21);
             this.txtKullaniciAdi.Name = "txtKullaniciAdi";
             this.txtKullaniciAdi.Size = new System.Drawing.Size(100, 20);
-            this.txtKullaniciAdi.TabIndex = 17;
+            this.txtKullaniciAdi.TabIndex = 5;
             // 
             // txtSifre
             // 
             this.txtSifre.Location = new System.Drawing.Point(414, 57);
             this.txtSifre.Name = "txtSifre";
             this.txtSifre.Size = new System.Drawing.Size(100, 20);
-            this.txtSifre.TabIndex = 16;
+            this.txtSifre.TabIndex = 6;
             // 
             // txtAdi
             // 
             this.txtAdi.Location = new System.Drawing.Point(125, 21);
             this.txtAdi.Name = "txtAdi";
             this.txtAdi.Size = new System.Drawing.Size(100, 20);
-            this.txtAdi.TabIndex = 15;
+            this.txtAdi.TabIndex = 1;
             // 
             // txtSoyadi
             // 
             this.txtSoyadi.Location = new System.Drawing.Point(125, 54);
             this.txtSoyadi.Name = "txtSoyadi";
             this.txtSoyadi.Size = new System.Drawing.Size(100, 20);
-            this.txtSoyadi.TabIndex = 14;
+            this.txtSoyadi.TabIndex = 2;
             // 
             // txtEmail
             // 
             this.txtEmail.Location = new System.Drawing.Point(125, 88);
             this.txtEmail.Name = "txtEmail";
             this.txtEmail.Size = new System.Drawing.Size(100, 20);
-            this.txtEmail.TabIndex = 13;
+            this.txtEmail.TabIndex = 3;
             // 
             // txtTelefon
             // 
             this.txtTelefon.Location = new System.Drawing.Point(125, 118);
             this.txtTelefon.Name = "txtTelefon";
             this.txtTelefon.Size = new System.Drawing.Size(100, 20);
-            this.txtTelefon.TabIndex = 12;
+            this.txtTelefon.TabIndex = 4;
             // 
             // label8
             // 
@@ -320,7 +320,7 @@
             this.cbKullaniciRolu.Location = new System.Drawing.Point(685, 18);
             this.cbKullaniciRolu.Name = "cbKullaniciRolu";
             this.cbKullaniciRolu.Size = new System.Drawing.Size(121, 21);
-            this.cbKullaniciRolu.TabIndex = 10;
+            this.cbKullaniciRolu.TabIndex = 8;
             this.cbKullaniciRolu.ValueMember = "Id";
             // 
             // cbAktif
@@ -330,7 +330,7 @@
             this.cbAktif.Location = new System.Drawing.Point(306, 90);
             this.cbAktif.Name = "cbAktif";
             this.cbAktif.Size = new System.Drawing.Size(97, 17);
-            this.cbAktif.TabIndex = 9;
+            this.cbAktif.TabIndex = 7;
             this.cbAktif.Text = "Aktiflik Durumu";
             this.cbAktif.UseVisualStyleBackColor = true;
             // 

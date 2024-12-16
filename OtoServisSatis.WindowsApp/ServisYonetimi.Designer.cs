@@ -31,9 +31,13 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ServisYonetimi));
             this.dgvServisler = new System.Windows.Forms.DataGridView();
             this.groupControl1 = new DevExpress.XtraEditors.GroupControl();
+            this.pictureEdit13 = new DevExpress.XtraEditors.PictureEdit();
             this.pictureEdit12 = new DevExpress.XtraEditors.PictureEdit();
             this.txtNotlar = new System.Windows.Forms.TextBox();
+            this.btnKaydet = new DevExpress.XtraEditors.SimpleButton();
+            this.bntSil = new DevExpress.XtraEditors.SimpleButton();
             this.label11 = new System.Windows.Forms.Label();
+            this.btnGüncelle = new DevExpress.XtraEditors.SimpleButton();
             this.pictureEdit11 = new DevExpress.XtraEditors.PictureEdit();
             this.txtKasaTipi = new System.Windows.Forms.TextBox();
             this.label10 = new System.Windows.Forms.Label();
@@ -62,17 +66,14 @@
             this.dtpServiseGelisTarihi = new System.Windows.Forms.DateTimePicker();
             this.pictureEdit9 = new DevExpress.XtraEditors.PictureEdit();
             this.pictureEdit2 = new DevExpress.XtraEditors.PictureEdit();
-            this.btnKaydet = new DevExpress.XtraEditors.SimpleButton();
-            this.btnGüncelle = new DevExpress.XtraEditors.SimpleButton();
-            this.bntSil = new DevExpress.XtraEditors.SimpleButton();
             this.txtServisUcreti = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.lblId = new System.Windows.Forms.Label();
-            this.pictureEdit13 = new DevExpress.XtraEditors.PictureEdit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvServisler)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl1)).BeginInit();
             this.groupControl1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureEdit13.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureEdit12.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureEdit11.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureEdit10.Properties)).BeginInit();
@@ -84,7 +85,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureEdit3.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureEdit9.Properties)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureEdit2.Properties)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureEdit13.Properties)).BeginInit();
             this.SuspendLayout();
             // 
             // dgvServisler
@@ -144,6 +144,18 @@
             this.groupControl1.TabIndex = 3;
             this.groupControl1.Text = "Satış Bilgileri";
             // 
+            // pictureEdit13
+            // 
+            this.pictureEdit13.EditValue = ((object)(resources.GetObject("pictureEdit13.EditValue")));
+            this.pictureEdit13.Location = new System.Drawing.Point(878, 39);
+            this.pictureEdit13.Name = "pictureEdit13";
+            this.pictureEdit13.Properties.Appearance.BackColor = System.Drawing.Color.Transparent;
+            this.pictureEdit13.Properties.Appearance.Options.UseBackColor = true;
+            this.pictureEdit13.Properties.ShowCameraMenuItem = DevExpress.XtraEditors.Controls.CameraMenuItemVisibility.Auto;
+            this.pictureEdit13.Properties.SizeMode = DevExpress.XtraEditors.Controls.PictureSizeMode.Stretch;
+            this.pictureEdit13.Size = new System.Drawing.Size(20, 20);
+            this.pictureEdit13.TabIndex = 99;
+            // 
             // pictureEdit12
             // 
             this.pictureEdit12.EditValue = ((object)(resources.GetObject("pictureEdit12.EditValue")));
@@ -162,7 +174,29 @@
             this.txtNotlar.Multiline = true;
             this.txtNotlar.Name = "txtNotlar";
             this.txtNotlar.Size = new System.Drawing.Size(100, 44);
-            this.txtNotlar.TabIndex = 97;
+            this.txtNotlar.TabIndex = 11;
+            // 
+            // btnKaydet
+            // 
+            this.btnKaydet.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnKaydet.ImageOptions.Image")));
+            this.btnKaydet.Location = new System.Drawing.Point(891, 85);
+            this.btnKaydet.Name = "btnKaydet";
+            this.btnKaydet.ShowFocusRectangle = DevExpress.Utils.DefaultBoolean.False;
+            this.btnKaydet.Size = new System.Drawing.Size(92, 31);
+            this.btnKaydet.TabIndex = 13;
+            this.btnKaydet.Text = "Kaydet";
+            this.btnKaydet.Click += new System.EventHandler(this.btnKaydet_Click);
+            // 
+            // bntSil
+            // 
+            this.bntSil.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("bntSil.ImageOptions.Image")));
+            this.bntSil.Location = new System.Drawing.Point(937, 122);
+            this.bntSil.Name = "bntSil";
+            this.bntSil.ShowFocusRectangle = DevExpress.Utils.DefaultBoolean.False;
+            this.bntSil.Size = new System.Drawing.Size(89, 31);
+            this.bntSil.TabIndex = 15;
+            this.bntSil.Text = "Sil";
+            this.bntSil.Click += new System.EventHandler(this.bntSil_Click);
             // 
             // label11
             // 
@@ -172,6 +206,17 @@
             this.label11.Size = new System.Drawing.Size(36, 13);
             this.label11.TabIndex = 96;
             this.label11.Text = "Notlar";
+            // 
+            // btnGüncelle
+            // 
+            this.btnGüncelle.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnGüncelle.ImageOptions.Image")));
+            this.btnGüncelle.Location = new System.Drawing.Point(989, 85);
+            this.btnGüncelle.Name = "btnGüncelle";
+            this.btnGüncelle.ShowFocusRectangle = DevExpress.Utils.DefaultBoolean.False;
+            this.btnGüncelle.Size = new System.Drawing.Size(89, 31);
+            this.btnGüncelle.TabIndex = 14;
+            this.btnGüncelle.Text = "Güncelle";
+            this.btnGüncelle.Click += new System.EventHandler(this.btnGüncelle_Click);
             // 
             // pictureEdit11
             // 
@@ -190,7 +235,7 @@
             this.txtKasaTipi.Location = new System.Drawing.Point(749, 38);
             this.txtKasaTipi.Name = "txtKasaTipi";
             this.txtKasaTipi.Size = new System.Drawing.Size(100, 21);
-            this.txtKasaTipi.TabIndex = 94;
+            this.txtKasaTipi.TabIndex = 9;
             // 
             // label10
             // 
@@ -218,7 +263,7 @@
             this.txtSaseNo.Location = new System.Drawing.Point(749, 85);
             this.txtSaseNo.Name = "txtSaseNo";
             this.txtSaseNo.Size = new System.Drawing.Size(100, 21);
-            this.txtSaseNo.TabIndex = 91;
+            this.txtSaseNo.TabIndex = 10;
             // 
             // label9
             // 
@@ -246,7 +291,7 @@
             this.txtModel.Location = new System.Drawing.Point(468, 176);
             this.txtModel.Name = "txtModel";
             this.txtModel.Size = new System.Drawing.Size(100, 21);
-            this.txtModel.TabIndex = 88;
+            this.txtModel.TabIndex = 8;
             // 
             // label8
             // 
@@ -274,7 +319,7 @@
             this.txtMarka.Location = new System.Drawing.Point(468, 130);
             this.txtMarka.Name = "txtMarka";
             this.txtMarka.Size = new System.Drawing.Size(152, 21);
-            this.txtMarka.TabIndex = 85;
+            this.txtMarka.TabIndex = 7;
             // 
             // lblblb
             // 
@@ -302,7 +347,7 @@
             this.txtAracPlaka.Location = new System.Drawing.Point(468, 89);
             this.txtAracPlaka.Name = "txtAracPlaka";
             this.txtAracPlaka.Size = new System.Drawing.Size(152, 21);
-            this.txtAracPlaka.TabIndex = 82;
+            this.txtAracPlaka.TabIndex = 6;
             // 
             // label2
             // 
@@ -320,7 +365,7 @@
             this.cbGaranti.Location = new System.Drawing.Point(904, 42);
             this.cbGaranti.Name = "cbGaranti";
             this.cbGaranti.Size = new System.Drawing.Size(139, 17);
-            this.cbGaranti.TabIndex = 80;
+            this.cbGaranti.TabIndex = 12;
             this.cbGaranti.Text = "Garanti Kapsamında Mı?";
             this.cbGaranti.UseVisualStyleBackColor = true;
             // 
@@ -342,7 +387,7 @@
             this.txtYapilanIslemler.Multiline = true;
             this.txtYapilanIslemler.Name = "txtYapilanIslemler";
             this.txtYapilanIslemler.Size = new System.Drawing.Size(152, 44);
-            this.txtYapilanIslemler.TabIndex = 78;
+            this.txtYapilanIslemler.TabIndex = 5;
             // 
             // label7
             // 
@@ -358,7 +403,7 @@
             this.dtpServistenCikisTarihi.Location = new System.Drawing.Point(141, 176);
             this.dtpServistenCikisTarihi.Name = "dtpServistenCikisTarihi";
             this.dtpServistenCikisTarihi.Size = new System.Drawing.Size(156, 21);
-            this.dtpServistenCikisTarihi.TabIndex = 73;
+            this.dtpServistenCikisTarihi.TabIndex = 4;
             // 
             // pictureEdit5
             // 
@@ -399,7 +444,7 @@
             this.txtAracSorunu.Multiline = true;
             this.txtAracSorunu.Name = "txtAracSorunu";
             this.txtAracSorunu.Size = new System.Drawing.Size(156, 44);
-            this.txtAracSorunu.TabIndex = 69;
+            this.txtAracSorunu.TabIndex = 2;
             // 
             // label4
             // 
@@ -415,7 +460,7 @@
             this.dtpServiseGelisTarihi.Location = new System.Drawing.Point(141, 35);
             this.dtpServiseGelisTarihi.Name = "dtpServiseGelisTarihi";
             this.dtpServiseGelisTarihi.Size = new System.Drawing.Size(156, 21);
-            this.dtpServiseGelisTarihi.TabIndex = 67;
+            this.dtpServiseGelisTarihi.TabIndex = 1;
             // 
             // pictureEdit9
             // 
@@ -441,45 +486,12 @@
             this.pictureEdit2.Size = new System.Drawing.Size(20, 20);
             this.pictureEdit2.TabIndex = 55;
             // 
-            // btnKaydet
-            // 
-            this.btnKaydet.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnKaydet.ImageOptions.Image")));
-            this.btnKaydet.Location = new System.Drawing.Point(891, 83);
-            this.btnKaydet.Name = "btnKaydet";
-            this.btnKaydet.ShowFocusRectangle = DevExpress.Utils.DefaultBoolean.False;
-            this.btnKaydet.Size = new System.Drawing.Size(92, 31);
-            this.btnKaydet.TabIndex = 52;
-            this.btnKaydet.Text = "Kaydet";
-            this.btnKaydet.Click += new System.EventHandler(this.btnKaydet_Click);
-            // 
-            // btnGüncelle
-            // 
-            this.btnGüncelle.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnGüncelle.ImageOptions.Image")));
-            this.btnGüncelle.Location = new System.Drawing.Point(989, 83);
-            this.btnGüncelle.Name = "btnGüncelle";
-            this.btnGüncelle.ShowFocusRectangle = DevExpress.Utils.DefaultBoolean.False;
-            this.btnGüncelle.Size = new System.Drawing.Size(89, 31);
-            this.btnGüncelle.TabIndex = 51;
-            this.btnGüncelle.Text = "Güncelle";
-            this.btnGüncelle.Click += new System.EventHandler(this.btnGüncelle_Click);
-            // 
-            // bntSil
-            // 
-            this.bntSil.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("bntSil.ImageOptions.Image")));
-            this.bntSil.Location = new System.Drawing.Point(937, 120);
-            this.bntSil.Name = "bntSil";
-            this.bntSil.ShowFocusRectangle = DevExpress.Utils.DefaultBoolean.False;
-            this.bntSil.Size = new System.Drawing.Size(89, 31);
-            this.bntSil.TabIndex = 50;
-            this.bntSil.Text = "Sil";
-            this.bntSil.Click += new System.EventHandler(this.bntSil_Click);
-            // 
             // txtServisUcreti
             // 
             this.txtServisUcreti.Location = new System.Drawing.Point(141, 137);
             this.txtServisUcreti.Name = "txtServisUcreti";
             this.txtServisUcreti.Size = new System.Drawing.Size(156, 21);
-            this.txtServisUcreti.TabIndex = 44;
+            this.txtServisUcreti.TabIndex = 3;
             // 
             // label3
             // 
@@ -502,23 +514,11 @@
             // lblId
             // 
             this.lblId.AutoSize = true;
-            this.lblId.Location = new System.Drawing.Point(1065, 35);
+            this.lblId.Location = new System.Drawing.Point(1065, 41);
             this.lblId.Name = "lblId";
             this.lblId.Size = new System.Drawing.Size(13, 13);
             this.lblId.TabIndex = 32;
             this.lblId.Text = "0";
-            // 
-            // pictureEdit13
-            // 
-            this.pictureEdit13.EditValue = ((object)(resources.GetObject("pictureEdit13.EditValue")));
-            this.pictureEdit13.Location = new System.Drawing.Point(878, 39);
-            this.pictureEdit13.Name = "pictureEdit13";
-            this.pictureEdit13.Properties.Appearance.BackColor = System.Drawing.Color.Transparent;
-            this.pictureEdit13.Properties.Appearance.Options.UseBackColor = true;
-            this.pictureEdit13.Properties.ShowCameraMenuItem = DevExpress.XtraEditors.Controls.CameraMenuItemVisibility.Auto;
-            this.pictureEdit13.Properties.SizeMode = DevExpress.XtraEditors.Controls.PictureSizeMode.Stretch;
-            this.pictureEdit13.Size = new System.Drawing.Size(20, 20);
-            this.pictureEdit13.TabIndex = 99;
             // 
             // ServisYonetimi
             // 
@@ -535,6 +535,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.groupControl1)).EndInit();
             this.groupControl1.ResumeLayout(false);
             this.groupControl1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureEdit13.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureEdit12.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureEdit11.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureEdit10.Properties)).EndInit();
@@ -546,7 +547,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureEdit3.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureEdit9.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureEdit2.Properties)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureEdit13.Properties)).EndInit();
             this.ResumeLayout(false);
 
         }

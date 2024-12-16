@@ -160,7 +160,7 @@
             this.txtNotlar.Multiline = true;
             this.txtNotlar.Name = "txtNotlar";
             this.txtNotlar.Size = new System.Drawing.Size(101, 34);
-            this.txtNotlar.TabIndex = 63;
+            this.txtNotlar.TabIndex = 7;
             // 
             // labelControl5
             // 
@@ -225,7 +225,7 @@
             this.btnKaydet.Name = "btnKaydet";
             this.btnKaydet.ShowFocusRectangle = DevExpress.Utils.DefaultBoolean.False;
             this.btnKaydet.Size = new System.Drawing.Size(92, 31);
-            this.btnKaydet.TabIndex = 52;
+            this.btnKaydet.TabIndex = 9;
             this.btnKaydet.Text = "Kaydet";
             this.btnKaydet.Click += new System.EventHandler(this.btnKaydet_Click);
             // 
@@ -248,18 +248,18 @@
             this.btnGüncelle.Name = "btnGüncelle";
             this.btnGüncelle.ShowFocusRectangle = DevExpress.Utils.DefaultBoolean.False;
             this.btnGüncelle.Size = new System.Drawing.Size(89, 31);
-            this.btnGüncelle.TabIndex = 51;
+            this.btnGüncelle.TabIndex = 10;
             this.btnGüncelle.Text = "Güncelle";
             this.btnGüncelle.Click += new System.EventHandler(this.btnGüncelle_Click);
             // 
             // bntSil
             // 
             this.bntSil.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("bntSil.ImageOptions.Image")));
-            this.bntSil.Location = new System.Drawing.Point(753, 120);
+            this.bntSil.Location = new System.Drawing.Point(751, 120);
             this.bntSil.Name = "bntSil";
             this.bntSil.ShowFocusRectangle = DevExpress.Utils.DefaultBoolean.False;
             this.bntSil.Size = new System.Drawing.Size(89, 31);
-            this.bntSil.TabIndex = 50;
+            this.bntSil.TabIndex = 11;
             this.bntSil.Text = "Sil";
             this.bntSil.Click += new System.EventHandler(this.bntSil_Click);
             // 
@@ -268,7 +268,7 @@
             this.txtTcNo.Location = new System.Drawing.Point(391, 29);
             this.txtTcNo.Name = "txtTcNo";
             this.txtTcNo.Size = new System.Drawing.Size(100, 21);
-            this.txtTcNo.TabIndex = 48;
+            this.txtTcNo.TabIndex = 5;
             // 
             // txtAdres
             // 
@@ -276,35 +276,35 @@
             this.txtAdres.Multiline = true;
             this.txtAdres.Name = "txtAdres";
             this.txtAdres.Size = new System.Drawing.Size(100, 32);
-            this.txtAdres.TabIndex = 47;
+            this.txtAdres.TabIndex = 6;
             // 
             // txtAdi
             // 
             this.txtAdi.Location = new System.Drawing.Point(102, 29);
             this.txtAdi.Name = "txtAdi";
             this.txtAdi.Size = new System.Drawing.Size(100, 21);
-            this.txtAdi.TabIndex = 46;
+            this.txtAdi.TabIndex = 1;
             // 
             // txtSoyadi
             // 
             this.txtSoyadi.Location = new System.Drawing.Point(102, 62);
             this.txtSoyadi.Name = "txtSoyadi";
             this.txtSoyadi.Size = new System.Drawing.Size(100, 21);
-            this.txtSoyadi.TabIndex = 45;
+            this.txtSoyadi.TabIndex = 2;
             // 
             // txtEmail
             // 
             this.txtEmail.Location = new System.Drawing.Point(102, 96);
             this.txtEmail.Name = "txtEmail";
             this.txtEmail.Size = new System.Drawing.Size(100, 21);
-            this.txtEmail.TabIndex = 44;
+            this.txtEmail.TabIndex = 3;
             // 
             // txtTelefon
             // 
             this.txtTelefon.Location = new System.Drawing.Point(102, 126);
             this.txtTelefon.Name = "txtTelefon";
             this.txtTelefon.Size = new System.Drawing.Size(100, 21);
-            this.txtTelefon.TabIndex = 43;
+            this.txtTelefon.TabIndex = 4;
             // 
             // label8
             // 
@@ -322,7 +322,7 @@
             this.cbAracId.Location = new System.Drawing.Point(665, 26);
             this.cbAracId.Name = "cbAracId";
             this.cbAracId.Size = new System.Drawing.Size(107, 21);
-            this.cbAracId.TabIndex = 41;
+            this.cbAracId.TabIndex = 8;
             this.cbAracId.ValueMember = "Id";
             // 
             // label6

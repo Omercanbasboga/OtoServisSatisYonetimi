@@ -31,6 +31,7 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(SatisYonetimi));
             this.dgvSatislar = new System.Windows.Forms.DataGridView();
             this.groupControl1 = new DevExpress.XtraEditors.GroupControl();
+            this.dtpSatisTarihi = new System.Windows.Forms.DateTimePicker();
             this.cbMusteri = new System.Windows.Forms.ComboBox();
             this.cbArac = new System.Windows.Forms.ComboBox();
             this.pictureEdit9 = new DevExpress.XtraEditors.PictureEdit();
@@ -46,7 +47,6 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.lblId = new System.Windows.Forms.Label();
-            this.dtpSatisTarihi = new System.Windows.Forms.DateTimePicker();
             ((System.ComponentModel.ISupportInitialize)(this.dgvSatislar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl1)).BeginInit();
             this.groupControl1.SuspendLayout();
@@ -90,6 +90,13 @@
             this.groupControl1.TabIndex = 2;
             this.groupControl1.Text = "Satış Bilgileri";
             // 
+            // dtpSatisTarihi
+            // 
+            this.dtpSatisTarihi.Location = new System.Drawing.Point(322, 32);
+            this.dtpSatisTarihi.Name = "dtpSatisTarihi";
+            this.dtpSatisTarihi.Size = new System.Drawing.Size(175, 21);
+            this.dtpSatisTarihi.TabIndex = 4;
+            // 
             // cbMusteri
             // 
             this.cbMusteri.DisplayMember = "Adi";
@@ -97,7 +104,7 @@
             this.cbMusteri.Location = new System.Drawing.Point(125, 58);
             this.cbMusteri.Name = "cbMusteri";
             this.cbMusteri.Size = new System.Drawing.Size(100, 21);
-            this.cbMusteri.TabIndex = 66;
+            this.cbMusteri.TabIndex = 2;
             this.cbMusteri.ValueMember = "Id";
             // 
             // cbArac
@@ -107,7 +114,7 @@
             this.cbArac.Location = new System.Drawing.Point(125, 29);
             this.cbArac.Name = "cbArac";
             this.cbArac.Size = new System.Drawing.Size(100, 21);
-            this.cbArac.TabIndex = 65;
+            this.cbArac.TabIndex = 1;
             this.cbArac.ValueMember = "Id";
             // 
             // pictureEdit9
@@ -153,7 +160,7 @@
             this.btnKaydet.Name = "btnKaydet";
             this.btnKaydet.ShowFocusRectangle = DevExpress.Utils.DefaultBoolean.False;
             this.btnKaydet.Size = new System.Drawing.Size(92, 31);
-            this.btnKaydet.TabIndex = 52;
+            this.btnKaydet.TabIndex = 5;
             this.btnKaydet.Text = "Kaydet";
             this.btnKaydet.Click += new System.EventHandler(this.btnKaydet_Click);
             // 
@@ -176,7 +183,7 @@
             this.btnGüncelle.Name = "btnGüncelle";
             this.btnGüncelle.ShowFocusRectangle = DevExpress.Utils.DefaultBoolean.False;
             this.btnGüncelle.Size = new System.Drawing.Size(89, 31);
-            this.btnGüncelle.TabIndex = 51;
+            this.btnGüncelle.TabIndex = 6;
             this.btnGüncelle.Text = "Güncelle";
             this.btnGüncelle.Click += new System.EventHandler(this.btnGüncelle_Click);
             // 
@@ -187,7 +194,7 @@
             this.bntSil.Name = "bntSil";
             this.bntSil.ShowFocusRectangle = DevExpress.Utils.DefaultBoolean.False;
             this.bntSil.Size = new System.Drawing.Size(89, 31);
-            this.bntSil.TabIndex = 50;
+            this.bntSil.TabIndex = 7;
             this.bntSil.Text = "Sil";
             this.bntSil.Click += new System.EventHandler(this.bntSil_Click);
             // 
@@ -196,7 +203,7 @@
             this.txtSatisFiyati.Location = new System.Drawing.Point(125, 96);
             this.txtSatisFiyati.Name = "txtSatisFiyati";
             this.txtSatisFiyati.Size = new System.Drawing.Size(100, 21);
-            this.txtSatisFiyati.TabIndex = 44;
+            this.txtSatisFiyati.TabIndex = 3;
             // 
             // label8
             // 
@@ -242,13 +249,6 @@
             this.lblId.Size = new System.Drawing.Size(13, 13);
             this.lblId.TabIndex = 32;
             this.lblId.Text = "0";
-            // 
-            // dtpSatisTarihi
-            // 
-            this.dtpSatisTarihi.Location = new System.Drawing.Point(322, 32);
-            this.dtpSatisTarihi.Name = "dtpSatisTarihi";
-            this.dtpSatisTarihi.Size = new System.Drawing.Size(175, 21);
-            this.dtpSatisTarihi.TabIndex = 67;
             // 
             // SatisYonetimi
             // 

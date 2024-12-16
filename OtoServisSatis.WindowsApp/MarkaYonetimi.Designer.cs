@@ -87,7 +87,7 @@
             this.btnKaydet.Name = "btnKaydet";
             this.btnKaydet.ShowFocusRectangle = DevExpress.Utils.DefaultBoolean.False;
             this.btnKaydet.Size = new System.Drawing.Size(92, 31);
-            this.btnKaydet.TabIndex = 8;
+            this.btnKaydet.TabIndex = 2;
             this.btnKaydet.Text = "Kaydet";
             this.btnKaydet.Click += new System.EventHandler(this.simpleButton3_Click);
             // 
@@ -98,7 +98,7 @@
             this.btnGüncelle.Name = "btnGüncelle";
             this.btnGüncelle.ShowFocusRectangle = DevExpress.Utils.DefaultBoolean.False;
             this.btnGüncelle.Size = new System.Drawing.Size(89, 31);
-            this.btnGüncelle.TabIndex = 7;
+            this.btnGüncelle.TabIndex = 3;
             this.btnGüncelle.Text = "Güncelle";
             this.btnGüncelle.Click += new System.EventHandler(this.simpleButton2_Click);
             // 
@@ -109,7 +109,7 @@
             this.bntSil.Name = "bntSil";
             this.bntSil.ShowFocusRectangle = DevExpress.Utils.DefaultBoolean.False;
             this.bntSil.Size = new System.Drawing.Size(89, 31);
-            this.bntSil.TabIndex = 6;
+            this.bntSil.TabIndex = 4;
             this.bntSil.Text = "Sil";
             this.bntSil.Click += new System.EventHandler(this.simpleButton1_Click);
             // 
@@ -118,7 +118,7 @@
             this.txtMarkaAdi.Location = new System.Drawing.Point(117, 34);
             this.txtMarkaAdi.Name = "txtMarkaAdi";
             this.txtMarkaAdi.Size = new System.Drawing.Size(100, 20);
-            this.txtMarkaAdi.TabIndex = 2;
+            this.txtMarkaAdi.TabIndex = 1;
             // 
             // label2
             // 

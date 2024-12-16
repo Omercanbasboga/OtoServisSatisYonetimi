@@ -112,7 +112,7 @@
             this.cbMarka.Location = new System.Drawing.Point(100, 39);
             this.cbMarka.Name = "cbMarka";
             this.cbMarka.Size = new System.Drawing.Size(121, 21);
-            this.cbMarka.TabIndex = 39;
+            this.cbMarka.TabIndex = 1;
             // 
             // pictureEdit1
             // 
@@ -217,7 +217,7 @@
             this.btnKaydet.Name = "btnKaydet";
             this.btnKaydet.ShowFocusRectangle = DevExpress.Utils.DefaultBoolean.False;
             this.btnKaydet.Size = new System.Drawing.Size(92, 31);
-            this.btnKaydet.TabIndex = 24;
+            this.btnKaydet.TabIndex = 9;
             this.btnKaydet.Text = "Kaydet";
             this.btnKaydet.Click += new System.EventHandler(this.btnKaydet_Click);
             // 
@@ -228,7 +228,7 @@
             this.btnGüncelle.Name = "btnGüncelle";
             this.btnGüncelle.ShowFocusRectangle = DevExpress.Utils.DefaultBoolean.False;
             this.btnGüncelle.Size = new System.Drawing.Size(89, 31);
-            this.btnGüncelle.TabIndex = 23;
+            this.btnGüncelle.TabIndex = 10;
             this.btnGüncelle.Text = "Güncelle";
             this.btnGüncelle.Click += new System.EventHandler(this.btnGüncelle_Click);
             // 
@@ -239,7 +239,7 @@
             this.bntSil.Name = "bntSil";
             this.bntSil.ShowFocusRectangle = DevExpress.Utils.DefaultBoolean.False;
             this.bntSil.Size = new System.Drawing.Size(89, 31);
-            this.bntSil.TabIndex = 22;
+            this.bntSil.TabIndex = 11;
             this.bntSil.Text = "Sil";
             this.bntSil.Click += new System.EventHandler(this.bntSil_Click);
             // 
@@ -250,7 +250,7 @@
             this.cbSatistaMi.Location = new System.Drawing.Point(533, 46);
             this.cbSatistaMi.Name = "cbSatistaMi";
             this.cbSatistaMi.Size = new System.Drawing.Size(77, 17);
-            this.cbSatistaMi.TabIndex = 18;
+            this.cbSatistaMi.TabIndex = 8;
             this.cbSatistaMi.Text = "Satışta Mı?";
             this.cbSatistaMi.UseVisualStyleBackColor = true;
             // 
@@ -260,14 +260,14 @@
             this.TxtNotlar.Multiline = true;
             this.TxtNotlar.Name = "TxtNotlar";
             this.TxtNotlar.Size = new System.Drawing.Size(101, 63);
-            this.TxtNotlar.TabIndex = 17;
+            this.TxtNotlar.TabIndex = 7;
             // 
             // TxtModelYili
             // 
             this.TxtModelYili.Location = new System.Drawing.Point(357, 72);
             this.TxtModelYili.Name = "TxtModelYili";
             this.TxtModelYili.Size = new System.Drawing.Size(100, 21);
-            this.TxtModelYili.TabIndex = 16;
+            this.TxtModelYili.TabIndex = 6;
             // 
             // labelControl2
             // 
@@ -290,28 +290,28 @@
             this.txtKasaTipi.Location = new System.Drawing.Point(357, 39);
             this.txtKasaTipi.Name = "txtKasaTipi";
             this.txtKasaTipi.Size = new System.Drawing.Size(100, 21);
-            this.txtKasaTipi.TabIndex = 13;
+            this.txtKasaTipi.TabIndex = 5;
             // 
             // txtRenk
             // 
             this.txtRenk.Location = new System.Drawing.Point(100, 67);
             this.txtRenk.Name = "txtRenk";
             this.txtRenk.Size = new System.Drawing.Size(100, 21);
-            this.txtRenk.TabIndex = 12;
+            this.txtRenk.TabIndex = 2;
             // 
             // txtFiyat
             // 
             this.txtFiyat.Location = new System.Drawing.Point(100, 100);
             this.txtFiyat.Name = "txtFiyat";
             this.txtFiyat.Size = new System.Drawing.Size(100, 21);
-            this.txtFiyat.TabIndex = 11;
+            this.txtFiyat.TabIndex = 3;
             // 
             // txtModel
             // 
             this.txtModel.Location = new System.Drawing.Point(100, 131);
             this.txtModel.Name = "txtModel";
             this.txtModel.Size = new System.Drawing.Size(100, 21);
-            this.txtModel.TabIndex = 10;
+            this.txtModel.TabIndex = 4;
             // 
             // labelControl5
             // 
